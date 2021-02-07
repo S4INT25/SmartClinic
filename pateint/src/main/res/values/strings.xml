@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SmartClinic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="smart_clinic">SMART CLINIC</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log in</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="username">Username</string>
+    <string name="create_account">Create An Account</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_chat">Chats</string>
+    <string name="menu_schedule">Appointments</string>
+    <string name="menu_profile">Profile</string>
+    <string name="lorem_ipsum">hello  hahaha i love what you do man kepp it up yor haha</string>
+    <string name="fire_your_message">Send your message</string>
+    <string name="image">image</string>
+    <string name="send_image">send_image</string>
+    <string name="profileImage">profileImage</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="video_call">Video Call</string>
+    <string name="voice_call">Voice call</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="doctors">Doctors</string>
+    <string name="ringing">Ringing</string>
+    <string name="_00_00">00:00</string>
+    <string name="call_background">Call background</string>
+    <string name="end_call">END Call</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="address">7070 road garden house<br /> lusaka zambia</string>
+    <string name="appointments">APPOINTMENTS</string>
+    <string name="boi">Here to save a Life</string>
+    <string name="profession">heart surgeon</string>
+    <string name="Profile">Profile</string>
+    <string name="welcome">Welcome</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="black_arrow">black arrow</string>
+    <string name="answer">Answer</string>
+    <string name="decline">Decline</string>
+    <string name="incoming_call">Incoming call</string>
+    <string name="sample_user">Sample user</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="phone">phone</string>
+    <string name="phone_no">Phone No</string>
+    <string name="_0966054543">0966054543</string>
+    <string name="email">Email</string>
+    <string name="jone_gmail_com">jone@gmail.com</string>
+    <string name="addressLabel">Address</string>
+    <string name="about_me">About</string>
+    <string name="david_e_sowa_md_dr_david_sowa_is_an_established_and_highly_skilled_physician_with_over_25_years_of_experience_in_obstetrics_and_gynecology_he_is_well_regarded_in_the_central_connecticut_community_earning_numerous_accolades_for_his_quality_and_patientcentered_care_in_2014_he_was_named_a_top_doctor_among_the_southington_bristol_and_plainville_areas_by_the_observer_s_reader_s_choice_awards_he_also_received_compassionate_doctor_recognition_for_four_consecutive_years_and_the_patient_s_choice_award_for_seven_years">David E. Sowa, MD Dr. David Sowa is an established and highly skilled physician with over 25 years of experience in obstetrics and gynecology. He is well regarded in the central Connecticut community, earning numerous accolades for his quality and patientcentered care. In 2014, he was named a Top Doctor among the Southington, Bristol, and Plainville areas by The Observer’s Reader’s Choice Awards. He also received Compassionate Doctor Recognition for four consecutive years and the Patient’s Choice Award for seven years.</string>
+    <string name="gynacologist">gynacologist</string>
+    <string name="luckson_mwanambulo">Luckson Mwanambulo</string>
+    <string name="something_went_wrong">No News  Something went wrong (*_*)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dob">dob</string>
+    <string name="sex">sex</string>
+    <string name="bio">bio</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">last name</string>
+    <string name="phone_number">phone number</string>
+    <string name="nrc_number">nrc number</string>
+    <string name="home_address">Address</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="no_doctors_Available">No doctors Available <b>😓</b> </string>
+    <string name="no_chats_available_yet">No Chats Available yet 🙂</string>
+    <string name="update">update</string>
+    <string name="occupation">Occupation</string>
+    <string name="privacy_police">Privacy police</string>
+    <string name="log_out">Log out</string>
+    <string name="search">Search</string>
+    <string name="note">note</string>
+    <string name="location">location</string>
+    <string name="clinic_name">clinic name</string>
+    <string name="type">type</string>
+    <string name="_07_may_2020">07 may 2020</string>
+    <string name="_19_45">19:40</string>
+    <string-array name="physicians_list">
+        <item>General Internist</item>
+        <item>Pediatrician</item>
+        <item>Obstetrician-Gynecologist</item>
+        <item>Surgeon</item>
+    </string-array>
+</resources>

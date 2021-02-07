@@ -1,0 +1,47 @@
+com/lucky/smartclinicdoctors/application/GlideOptions.java
+ com.lucky.smartclinicdoctors.application.GlideOptions
+com/lucky/smartclinicdoctors/BuildConfig.java
+ com.lucky.smartclinicdoctors.BuildConfig
+com/bumptech/glide/GeneratedRequestManagerFactory.java
+ com.bumptech.glide.GeneratedRequestManagerFactory
+com/bumptech/glide/GeneratedAppGlideModuleImpl.java
+ com.bumptech.glide.GeneratedAppGlideModuleImpl
+com/lucky/smartclinicdoctors/application/GlideApp.java
+ com.lucky.smartclinicdoctors.application.GlideApp
+com/lucky/smartclinicdoctors/ui/fragments/RegisterDoctorFragmentDirections.java
+ com.lucky.smartclinicdoctors.ui.fragments.RegisterDoctorFragmentDirections
+com/lucky/smartclinicdoctors/ui/fragments/pateint/PatientProfileFragmentArgs.java
+ com.lucky.smartclinicdoctors.ui.fragments.pateint.PatientProfileFragmentArgs
+ com.lucky.smartclinicdoctors.ui.fragments.pateint.PatientProfileFragmentArgs$1
+ com.lucky.smartclinicdoctors.ui.fragments.pateint.PatientProfileFragmentArgs$Builder
+com/lucky/smartclinicdoctors/ui/fragments/ProfileArgs.java
+ com.lucky.smartclinicdoctors.ui.fragments.ProfileArgs
+ com.lucky.smartclinicdoctors.ui.fragments.ProfileArgs$1
+ com.lucky.smartclinicdoctors.ui.fragments.ProfileArgs$Builder
+com/lucky/smartclinicdoctors/application/GlideRequests.java
+ com.lucky.smartclinicdoctors.application.GlideRequests
+com/lucky/smartclinicdoctors/application/GlideRequest.java
+ com.lucky.smartclinicdoctors.application.GlideRequest
+com/lucky/smartclinicdoctors/ui/fragments/SplashScreenFragmentDirections.java
+ com.lucky.smartclinicdoctors.ui.fragments.SplashScreenFragmentDirections
+com/lucky/smartclinicdoctors/ui/fragments/pateint/ChatFragmentArgs.java
+ com.lucky.smartclinicdoctors.ui.fragments.pateint.ChatFragmentArgs
+ com.lucky.smartclinicdoctors.ui.fragments.pateint.ChatFragmentArgs$1
+ com.lucky.smartclinicdoctors.ui.fragments.pateint.ChatFragmentArgs$Builder
+com/lucky/smartclinicdoctors/ui/fragments/HomeFragmentDirections.java
+ com.lucky.smartclinicdoctors.ui.fragments.HomeFragmentDirections
+ com.lucky.smartclinicdoctors.ui.fragments.HomeFragmentDirections$1
+ com.lucky.smartclinicdoctors.ui.fragments.HomeFragmentDirections$ActionHomeFragmentToChatFragment
+ com.lucky.smartclinicdoctors.ui.fragments.HomeFragmentDirections$ActionHomeFragmentToPateintProfileFragment
+ com.lucky.smartclinicdoctors.ui.fragments.HomeFragmentDirections$ActionHomeFragmentToProfile2
+com/lucky/smartclinicdoctors/ui/fragments/ProfileDirections.java
+ com.lucky.smartclinicdoctors.ui.fragments.ProfileDirections
+com/lucky/smartclinicdoctors/ui/fragments/LogInFragmentDirections.java
+ com.lucky.smartclinicdoctors.ui.fragments.LogInFragmentDirections
+com/lucky/smartclinicdoctors/utils/AudioPlayer.java
+ com.lucky.smartclinicdoctors.utils.AudioPlayer
+com/lucky/smartclinicdoctors/ui/activities/VideoCallScreenActivity.java
+ com.lucky.smartclinicdoctors.ui.activities.VideoCallScreenActivity
+ com.lucky.smartclinicdoctors.ui.activities.VideoCallScreenActivity$1
+ com.lucky.smartclinicdoctors.ui.activities.VideoCallScreenActivity$SinchCallListener
+ com.lucky.smartclinicdoctors.ui.activities.VideoCallScreenActivity$UpdateCallDurationTask

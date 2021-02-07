@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">7453653423-jfbl90in76n8d5gnvdhbjjjog160u4kf.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://smart-clinic-16854.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">7453653423</string>
+    <string name="google_api_key" translatable="false">AIzaSyBa5VfAl3ezp8Vmpxn3Dlfz7xbQdxgFDj4</string>
+    <string name="google_app_id" translatable="false">1:7453653423:android:05cb267f4b965cca03175a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBa5VfAl3ezp8Vmpxn3Dlfz7xbQdxgFDj4</string>
+    <string name="google_storage_bucket" translatable="false">smart-clinic-16854.appspot.com</string>
+    <string name="project_id" translatable="false">smart-clinic-16854</string>
+</resources>

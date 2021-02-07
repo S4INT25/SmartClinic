@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewItemDoctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="DR:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewItemProfessional"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView" />
+
+    <TextView
+        android:id="@+id/textViewItemProfessional"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/profession"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewItemBoi"
+        app:layout_constraintStart_toStartOf="@+id/textViewItemDoctorName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemDoctorName" />
+
+    <TextView
+        android:id="@+id/textViewItemBoi"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="serif"
+        android:text="@string/bio"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
+        app:layout_constraintStart_toStartOf="@+id/textViewItemProfessional"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemProfessional" />
+</androidx.constraintlayout.widget.ConstraintLayout>

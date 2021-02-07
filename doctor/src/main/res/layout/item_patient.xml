@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/primaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageViewPatient"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_profile"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textViewItemPatientName"
+                style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Luckson mwanambulo"
+                android:textAllCaps="true"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/textViewItemPatientProfessional"
+                app:layout_constraintStart_toEndOf="@+id/circleImageViewPatient"
+                app:layout_constraintTop_toTopOf="@+id/circleImageViewPatient" />
+
+            <TextView
+                android:id="@+id/textViewItemPatientProfessional"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/profession"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/textViewItemPatientBio"
+                app:layout_constraintStart_toStartOf="@+id/textViewItemPatientName"
+                app:layout_constraintTop_toBottomOf="@+id/textViewItemPatientName" />
+
+            <TextView
+                android:id="@+id/textViewItemPatientBio"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="serif"
+                android:text="@string/bio"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/circleImageViewPatient"
+                app:layout_constraintStart_toStartOf="@+id/textViewItemPatientProfessional"
+                app:layout_constraintTop_toBottomOf="@+id/textViewItemPatientProfessional" />
+
+            <TextView
+                android:id="@+id/TV_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/online"
+                android:textColor="@color/secondaryLightColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>

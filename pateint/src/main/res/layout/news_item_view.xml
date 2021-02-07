@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:foregroundGravity="center"
+app:cardCornerRadius="8dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+android:layout_margin="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/primaryDarkColor">
+
+    <ImageView
+        android:id="@+id/iv_news"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image"
+        tools:srcCompat="@tools:sample/avatars" />
+    <TextView
+        android:textAllCaps="true"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+        android:textColor="@color/primaryTextColor"
+        android:id="@+id/tv_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="Title"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_news_description"
+        style="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/primaryTextColor"
+        tools:text="some random text haha" />
+
+    <TextView
+        android:textColor="@color/secondaryColor"
+        android:id="@+id/tv_news_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="source"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_margin="8dp"/>
+</LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+

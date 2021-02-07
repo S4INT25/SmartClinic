@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Programing\\projects\\Android Projects\\Apps\\smart-clinic\\doctor\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Programing\\Tools\\Android\\.gradle\\caches\\transforms-3\\0a7ddafd7e50a9cd7752016c2f8eee2f\\transformed\\material-1.3.0-beta01\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,51",
+                        "endOffsets": "105,157"
+                    }
+                }
+            ]
+        }
+    ]
+}

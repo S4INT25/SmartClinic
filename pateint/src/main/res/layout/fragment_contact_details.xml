@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.home.doctor.ContactDetailsFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/phone"
+                android:src="@drawable/ic_baseline_phone_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+                android:id="@+id/TV_phoneNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/phone_no"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+
+                app:layout_constraintStart_toEndOf="@id/phoneNumber"
+                app:layout_constraintTop_toTopOf="@+id/phoneNumber" />
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:id="@+id/TV_PhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/_0966054543"
+                app:layout_constraintStart_toStartOf="@id/TV_phoneNumberLabel"
+                app:layout_constraintTop_toBottomOf="@id/TV_phoneNumberLabel" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/materialCardView4"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_baseline_mail_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+                android:id="@+id/TV_emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/email"
+                android:textAllCaps="true"
+                app:layout_constraintStart_toEndOf="@id/imageViewEmail"
+                app:layout_constraintTop_toTopOf="@+id/imageViewEmail"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TV_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:text="@string/jone_gmail_com"
+                app:layout_constraintStart_toStartOf="@id/TV_emailLabel"
+                app:layout_constraintTop_toBottomOf="@+id/TV_emailLabel" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/materialCardView5"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_baseline_home_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:textStyle="bold"
+                style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+                android:id="@+id/TV_addressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/addressLabel"
+                android:textAllCaps="true"
+                app:layout_constraintStart_toEndOf="@+id/imageViewAddress"
+                app:layout_constraintTop_toTopOf="@+id/imageViewAddress" />
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:id="@+id/TV_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/address"
+                app:layout_constraintStart_toStartOf="@+id/TV_addressLabel"
+                app:layout_constraintTop_toBottomOf="@+id/TV_addressLabel" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

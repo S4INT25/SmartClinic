@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart-clinic-doctor</string>
+    <string name="chats">Chats</string>
+    <string name="profile">Profile</string>
+    <string name="patients">Patients</string>
+    <string name="send_image">SendImage</string>
+    <string name="fire_your_message">Fire your message</string>
+    <string name="image">Image</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="phone_number">Phone number</string>
+    <string name="profession">profession</string>
+    <string name="bio">Bio</string>
+    <string name="smart_clinic">SMART CLINIC</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="video_call">Video Call</string>
+    <string name="voice_call">Voice call</string>
+    <string name="appointment">Add Appointment</string>
+    <string name="time">TIME</string>
+    <string name="note">Note</string>
+    <string name="patient">Patient</string>
+    <string name="_07_may_2020">07/May/2020</string>
+    <string name="date">DATE</string>
+    <string name="_19_45">19:45</string>
+    <string name="profileImage">profile</string>
+    <string name="address">lusaka</string>
+    <string name="end_call">End Call</string>
+    <string name="ringing">Ringing</string>
+    <string name="_00_00">00:00</string>
+    <string name="_24">24</string>
+    <string name="male">MALE</string>
+    <string name="decline">Decline</string>
+    <string name="answer">Answer</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="sex">Sex</string>
+    <string name="dob">Dob</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="nrc_number">Nrc number</string>
+    <string name="home_address">Home address</string>
+    <string name="document">document</string>
+    <string name="attacth_your_hpcz_document">Attacth your hpcz Document</string>
+    <string name="register_doctor">Register doctor</string>
+    <string name="register">register</string>
+    <string name="log_out">Log out</string>
+    <string name="sample_user">Sample user</string>
+    <string name="call_background">Call background</string>
+    <string name="incoming_call">Incoming call</string>
+    <string name="occupation">occupation</string>
+    <string name="online">online</string>
+    <string name="you_have_no_appointments">You have no appointments</string>
+    <string name="no_pateint_is_connected_to_you">No Pateint is Connected to you</string>
+    <string name="elijah">Elija</string>
+    <string name="listen_and_you_will_be_avoided_substantially">Listen and you will be avoided substantially.</string>
+    <string name="forgot_password">Forgot password</string>
+    <string-array name="physicians_list">
+        <item>General Internist</item>
+        <item>Pediatrician</item>
+        <item>Obstetrician-Gynecologist</item>
+        <item>Surgeon</item>
+    </string-array>
+
+    <string-array name="appointments_list">
+            <item>Sick visit</item>
+            <item>Routine checkup</item>
+            <item>Vaccination</item>
+            <item>Sick note</item>
+            <item>others</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location">location</string>
+    <string name="clinic_name">Clinic name</string>
+    <string name="type">Type:</string>
+    <string name="general_medical_history">General Medical History</string>
+    <string name="medical_problems">Medical problems</string>
+    <string name="allergies">Allergies</string>
+    <string name="medication">Medications taken</string>
+    <string name="appointments_notes">Appointments notes</string>
+    <string name="gender">Gender</string>
+    <string name="add_appointment_note">Appointment Report</string>
+    <string name="doctors_name">Doctors name</string>
+    <string name="medicine">Medical Advice/Prescription</string>
+    <string name="description">Description of the medical diagnosis</string>
+    <string name="doctor_s_name">Doctors Name</string>
+    <string name="title">Title</string>
+    <string name="clinic_hospital_name">Clinic/Hospital Name</string>
+    <string name="description_of_the_medical_diagnosis">Description of the medical diagnosis</string>
+    <string name="medical_advice_prescription">Medical Advice/Prescription</string>
+    <string name="you_re_not_verified_yet">You\'re not verified yet</string>
+    <string name="edit">edit</string>
+    <string name="update">Update</string>
+
+
+</resources>

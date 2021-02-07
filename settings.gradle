@@ -1,0 +1,4 @@
+include ':pateint'
+rootProject.name = "SmartClinic"
+include ':doctor'
+include ':admin'
